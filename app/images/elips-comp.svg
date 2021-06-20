@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="498" height="369" viewBox="0 0 498 369">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #efefef;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="Эллипс_3" data-name="Эллипс 3" class="cls-1" d="M267.5,1C394.8,1,498,65.471,498,145S405.3,369,278,369,0,148.529,0,69,140.2,1,267.5,1Z"/>
+</svg>

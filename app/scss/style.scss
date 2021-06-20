@@ -21,9 +21,92 @@
     }
     &__item {
         margin-right: 58px;
+        @extend %Nova-bold-700;
         &:last-child {
             margin-right: 0;
         }
+    }
+}
+
+// background for sections -----------------------------
+.main {
+    background-image: url("../images/bg.svg");
+    background-repeat: no-repeat;
+    // background-position: center;
+}
+// background for sections end-----------------------------
+
+.howdy {
+    margin-top: 72px;
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__text-wprap {
+        margin-top: 85px;
+        max-width: 475px;
+    }
+    &__title {
+        font-size: 50px;
+        line-height: 60px;
+        & span {
+            color: #e21a20;
+        }
+    }
+    &__text {
+        max-width: 415px;
+        @extend %Nova-bold-700;
+    }
+    &__text-img {
+        margin-top: 47px;
+        @extend %Nova-bold-700;
+    }
+    &__img {
+        margin-left: 30px;
+        margin-top: 8px;
+    }
+    &__img-wrap {
+        display: flex;
+        justify-content: space-between;
+        margin-right: 60px;
+    }
+    &__img-front {
+        margin-top: 43px;
+        margin-right: 41px;
+        font-size: 20px;
+    }
+}
+
+.footer {
+    min-height: 171px;
+    border-top: 1px solid #959595;
+
+    &__inner {
+        display: flex;
+        align-items: center;
+        margin-top: 35px;
+        margin-left: 61px;
+    }
+
+    &__pict {
+        margin-top: 13px;
+    }
+
+    &__social {
+        display: flex;
+        align-items: center;
+        margin-left: 93px;
+    }
+
+    &__linkendin {
+        height: 45px;
+        width: 45px;
+        margin-right: 36px;
+    }
+    &__insta {
+        height: 41px;
+        width: 41px;
+        margin-top: 3px;
     }
 }
 
