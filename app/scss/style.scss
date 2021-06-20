@@ -1,41 +1,30 @@
-@import 'vars';
-@import 'fonts';
-@import 'reset';
-@import 'libs';
-@import 'media';
-@import 'global';
+@import "vars";
+@import "fonts";
+@import "reset";
+@import "libs";
+@import "media";
+@import "global";
 
+.header {
+    min-height: 78px;
+    box-shadow: 3.927px 0.763px 11.7px 1.3px rgba(0, 0, 0, 0.11);
+}
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
 
+    &__items {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__item {
+        margin-right: 58px;
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+}
 
-
-
-
-
-
-
-@import 'media';
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@import "media";

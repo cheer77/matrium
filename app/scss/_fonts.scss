@@ -1,18 +1,24 @@
-@font-face{
-    font-family: 'Quicksand-Regular';
+@font-face {
+    font-family: "ProximaNova-Regular";
     font-weight: 400;
     font-style: normal;
-    src: local('Quicksand-Regular'),
-        url('../fonts/Quicksand-Regular.woff2') format('woff2'),
-        url('../fonts/Quicksand-Regular.woff') format('woff');
+    src: local("ProximaNova-Regular"), url("../fonts/ProximaNova-Regular.woff2") format("woff2"),
+        url("../fonts/ProximaNova-Regular.woff") format("woff");
     font-display: swap;
 }
-@font-face{
-    font-family: 'Quicksand-Medium';
-    font-weight: 500;
+@font-face {
+    font-family: "ProximaNova-Bold";
+    font-weight: 700;
     font-style: normal;
-    src: local('Quicksand-Medium'),
-        url('../fonts/Quicksand-Medium.woff2') format('woff2'),
-        url('../fonts/Quicksand-Medium.woff') format('woff');
+    src: local("ProximaNova-Bold"), url("../fonts/ProximaNova-Bold.woff2") format("woff2"),
+        url("../fonts/ProximaNova-Bold.woff") format("woff");
+    font-display: swap;
+}
+@font-face {
+    font-family: "ProximaNova-Extrabld";
+    font-weight: 800;
+    font-style: normal;
+    src: local("ProximaNova-Extrabld"), url("../fonts/ProximaNova-Extrabld.woff2") format("woff2"),
+        url("../fonts/ProximaNova-Extrabld.woff") format("woff");
     font-display: swap;
 }
