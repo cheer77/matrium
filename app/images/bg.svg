@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="545" height="2138" viewBox="0 0 545 2138">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #000;
+        stroke-width: 1px;
+        stroke-dasharray: 4 10;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="Фигура_2" data-name="Фигура 2" class="cls-1" d="M1,0S324.893,94.28,471,286c153.224,201.058,19,506,19,506s-93.269,262.42-208,408c-122.983,156.05-181,357-181,357s-43.528,101.63,70,245c112.546,142.13,154,174,154,174s58.3,58.93,106,93c50.233,35.88-18,70-18,70"/>
+</svg>
