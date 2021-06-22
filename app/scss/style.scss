@@ -80,10 +80,12 @@
         justify-content: space-between;
         margin-right: 60px;
     }
+    &__front {
+        background-color: transparent;
+    }
     &__img-front {
         margin-top: 43px;
         margin-right: 41px;
-        font-size: 20px;
     }
 }
 
@@ -205,6 +207,12 @@
     &__text-3 {
         position: absolute;
         bottom: -44px;
+        left: 90px;
+        font-size: 28px;
+    }
+    &__text-4 {
+        position: absolute;
+        bottom: -48px;
         left: 90px;
         font-size: 28px;
     }
