@@ -51,6 +51,7 @@
     &__inner {
         display: flex;
         justify-content: space-between;
+        flex-wrap: wrap;
     }
     &__text-wprap {
         margin-top: 85px;
@@ -177,6 +178,10 @@
 }
 
 .slider {
+    &__inner-mob {
+        display: none;
+    }
+
     &__inner {
         min-width: 0;
     }
@@ -335,6 +340,10 @@
 .footer {
     min-height: 171px;
     border-top: 1px solid #959595;
+
+    &__info {
+        display: none;
+    }
 
     &__inner {
         display: flex;

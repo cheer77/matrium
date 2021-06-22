@@ -1,0 +1,92 @@
+@media (max-width: 940px) {
+    .main {
+        background-position: top 380px left 160px;
+    }
+
+    .howdy {
+        margin-top: 62px;
+        &__inner {
+            display: flex;
+            justify-content: space-between;
+        }
+        &__text-wprap {
+            margin-top: 85px;
+            max-width: 320px;
+        }
+        &__title {
+            font-size: 50px;
+            line-height: 50px;
+        }
+        &__text {
+            max-width: 390px;
+        }
+    }
+
+    .skills {
+        margin-top: 237px;
+        &__inner {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        &__img {
+            margin-left: 50px;
+        }
+        &__text {
+            max-width: 80px;
+            font-size: 35px;
+            margin-right: 200px;
+        }
+    }
+
+    .team {
+        margin-top: 295px;
+        margin-bottom: 218px;
+        &__inner {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        &__text {
+            font-size: 35px;
+            margin-left: 80px;
+            max-width: 80px;
+        }
+        &__pict {
+            margin-right: 10px;
+            position: relative;
+            z-index: 2;
+        }
+    }
+
+    .slider {
+        &__text-1,
+        &__text-2,
+        &__text-3,
+        &__text-4 {
+            font-size: 21px;
+        }
+    }
+    .slick-track {
+        min-height: 500px;
+    }
+    .slider .slick-arrow {
+        top: 30%; // выравнивание по вертикали
+    }
+
+    .contacts {
+        margin-top: 50px;
+        margin-bottom: 100px;
+        &__info {
+            margin-bottom: 87px;
+        }
+    }
+}
+
+@media (max-width: 845px) {
+    .contacts {
+        &__wrap-title {
+            margin-top: 24px;
+        }
+    }
+}
