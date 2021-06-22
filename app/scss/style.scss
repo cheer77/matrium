@@ -15,6 +15,26 @@
     align-items: center;
     margin-top: 20px;
 
+    &__btn-mob {
+        display: none;
+        position: absolute;
+        right: 30px;
+        top: 50px;
+        transform: translateY(-50%);
+        width: 60px;
+        height: 40px;
+        padding: 5px;
+        cursor: pointer;
+        & span {
+            display: block;
+            height: 2px;
+            width: 100%;
+            background-color: #000;
+            margin-bottom: 5px;
+            transition: all 0.5s;
+        }
+    }
+
     &__items {
         display: flex;
         justify-content: space-between;
@@ -26,23 +46,17 @@
             margin-right: 0;
         }
     }
+    &__link-mob {
+        display: none;
+    }
 }
 
 // background for sections -----------------------------
 .main {
     background-image: url("../images/bg.svg");
     background-repeat: no-repeat;
-    position: relative;
     background-size: auto;
     background-position: top 450px left 200px;
-    // &::after {
-    //     content: "";
-    //     position: absolute;
-    //     background-image: url("../images/bg.svg");
-    //     width: 544px;
-    //     height: 2139px;
-    //     background-repeat: no-repeat;
-    // }
 }
 // background for sections end-----------------------------
 
@@ -114,6 +128,12 @@
         @extend %Nova-Reg-400;
         border-bottom: 4px solid #007c89;
     }
+    &__text-mob {
+        display: none;
+        font-size: 19px;
+        @extend %Nova-Reg-400;
+        border-bottom: 4px solid #007c89;
+    }
 }
 
 .skills {
@@ -122,6 +142,19 @@
         display: flex;
         justify-content: space-around;
         align-items: center;
+    }
+    &__wrap-mob {
+        display: none;
+    }
+    &__text-mob {
+        font-size: 17px;
+        @extend %Nova-Reg-400;
+        color: #0ab5f4;
+        margin-bottom: 10px;
+    }
+
+    &__title-mob {
+        font-size: 22px;
     }
     &__pict {
         position: relative;
